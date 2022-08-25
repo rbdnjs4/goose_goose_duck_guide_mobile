@@ -1,0 +1,99 @@
+table, th, td{
+    border-collapse: none;
+}
+th {
+    cursor:pointer;
+}
+#lang_introduce {
+    right: 0;
+    left: 0;
+}
+table {
+	margin : 0 auto;
+     border-spacing:20px;
+    left:0;
+    right:0;
+}.box {padding: 20px;}
+
+.pull {position:relative; max-width: 100%; margin: 10%; padding: 20px; width:220px; height:80px; color: #FFF; border-radius: 10px; background-color: #000; z-index:1;}
+.pull:after {content:""; position: absolute; top: 21px; right: 240px; border-right: 30px solid #000; border-top: 10px solid transparent; border-bottom: 10px solid transparent;}
+
+
+img {
+    width:130px;
+    height:130px;
+}
+
+#goose, #duck, #pal, #ppal, #peace, #couple, #dodo {
+    font-size : 30px;
+    text-align: center; font-family : TmonMonsori, 'GodoB', '����'; font-weight:900;
+}
+#dae {
+    font-size : 25px;
+    text-align: center; font-family : TmonMonsori, 'GodoB', '����'; font-weight:900;
+}
+
+@media screen and (max-width: 340px) {
+    td {
+        font-size: 1px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pull {font-size:14px; width:200px; height:80px;}
+    .pull:after {right: 220px;}
+}
+
+@media screen and (max-width: 510px) {
+    img {
+        width:105px;
+        height:105px;
+    }
+    #dae {
+        font-size : 20px;
+    }
+    .pull {font-size:12px; width:180px; height:80px;}
+    .pull:after {right: 200px;}
+}
+@media screen and (max-width: 450px) {
+    img {
+        width:90px;
+        height:90px;
+    }
+    #goose, #duck, #pal, #ppal, #peace, #couple, #dodo {
+        font-size : 25px;
+    }
+    #dae {
+        font-size : 15px;
+    }
+    .pull {font-size:10px;width:160px; height:70px;}
+    .pull:after {right: 180px;}
+}
+@media screen and (max-width: 400px) {
+    img {
+        width:75px;
+        height:75px;
+    }
+    .pull {font-size:8px; width:140px; height:60px;}
+    .pull:after {right: 160px;}
+}
+@media screen and (max-width: 350px) {
+    img {
+        width:60px;
+        height:60px;
+    }
+    .pull {font-size:6px; width:120px; height:50px;}
+    .pull:after {right: 140px;}
+    #goose, #duck, #pal, #ppal, #peace, #couple, #dodo {
+        font-size : 20px;
+    }
+}
+@media screen and (max-width: 300px) {
+    img {
+        width:55px;
+        height:55px;
+    }
+    .pull {font-size:2px; width:100px; height:40px;}
+    .pull:after {right: 120px;}
+}
+

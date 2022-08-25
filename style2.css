@@ -1,0 +1,85 @@
+.menu, .submenu1, .submenu2 ,.submenu3 ,.submenu4, a, li {padding:0;margin:0;}
+
+body {
+  margin:0;
+}
+li{list-style:none;
+	left:0;}
+a{text-decoration:none;font-size:14px;}
+.menu {
+	position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top:0;
+  left:0;
+  
+}
+
+.menu > li {
+  width: 16.6666666666%; /*20*5=100%*/
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  background-color: #5778ff;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.submenu1, .submenu2 ,.submenu3 ,.submenu4 > li {
+  line-height: 50px;
+  background-color: #94a9ff;
+}
+
+.submenu1, .submenu2 ,.submenu3 ,.submenu4 {
+  height: 0; /*ul의 높이를 안보이게 처리*/
+  overflow: hidden;
+}
+	.menu > li:hover {
+  background-color: #94a9ff;
+  transition-duration: 0.5s;
+}
+
+.menu > li:hover .submenu1 {
+  height: 100px; /*서브메뉴 li한개의 높이 50*5*/
+  transition-duration: 1s;	
+}
+
+.menu > li:hover .submenu2 {
+  height: 150px; /*서브메뉴 li한개의 높이 50*5*/
+  transition-duration: 1s;	
+}
+.menu > li:hover .submenu3 {
+  height: 100px; /*서브메뉴 li한개의 높이 50*5*/
+  transition-duration: 1s;	
+}
+.menu > li:hover .submenu4 {
+  height: 100px; /*서브메뉴 li한개의 높이 50*5*/
+  transition-duration: 1s;	
+}
+
+@media screen and (max-width: 750px) {
+  a {
+    font-size: 10px;
+  }
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid black; /* Blue */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  z-index:100;
+}
+
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
