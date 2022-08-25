@@ -55,7 +55,7 @@ a{text-decoration:none;font-size:14px;}
   transition-duration: 0.3s;	
 }
 .menu > li:hover .submenu4 {
-  /*height: 100px; /*서브메뉴 li한개의 높이 50*5*/
+  /*height: 100px;*/
   transition-duration: 0.3s;	
 }
 
