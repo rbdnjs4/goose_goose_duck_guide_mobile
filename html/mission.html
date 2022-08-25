@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head><!-- 제일먼저 Jquery를 import한다. 로컬에 다운받은게 있으면 src부분에 경로지정해 주면 된다.Jquery버전은 상관없다.-->
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript">//페이지가 로드되면 실행한다.
+			$(document).ready( function() {	$("#contents").load("testContents.html")});	//~이렇게 한줄만 해주면 알아서 contents에 testContents.html파일을 넣어 준다.});
+		</script>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348476326665757"
+     crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div id="header">이부분은 헤더</div>
+		<div id="contents"><!-- 여기는 다른 html파일을 넣자 --></div>
+		<div id="footer">이부분은 푸터</div>
+	</body>
+</html>

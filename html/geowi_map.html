@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<meta charset='utf-8'>
+	<style>
+		@import url("map_btn.css");
+		
+		html, body {height: 100%}
+		.container {
+			height: 100px;
+		}
+		.container img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+
+	</style>
+	<head>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348476326665757"
+		 crossorigin="anonymous"></script>
+	</head>
+	<script>
+		function map() {
+			document.getElementById("map").src="img/seongdang.png";
+		}
+		function duck() {
+			document.getElementById("map").src="img/seongdang_duck.png";
+		}
+		function goose() {
+			document.getElementById("map").src="img/seongdang_goose.png";
+		}
+		function be() {
+			document.getElementById("map").src="img/seongdang_be.png";
+		}
+	</script>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1348476326665757"
+     crossorigin="anonymous"></script>
+	<head>
+	</head>
+	
+	<body>
+		<div style="margin-top:70px;"></div>
+		<div class="container">
+			<table style="text-align: center; margin-left:auto; margin-right:auto;">
+				<td><a title="Button push blue/green" class="button btnPush btnBlueGreen" onclick="map()">맵</a></td>
+				<td><a title="Button push lightblue" class="button btnPush btnLightBlue" onclick="duck()">오리</a></td>
+				<td><a title="Button push orange" class="button btnPush btnOrange" onclick="goose()">거위</a></td>
+				<td><a title="Button push purple" class="button btnPush btnPurple" onclick="be()">벤트</a></td>
+			</table>
+		</div>
+
+		<div id="lang_introduce" style="background-color:white;">
+			<div style="width:100%;" class="container">
+				<img id="map" src="img/seongdang.png" style="margin:0 auto;">
+			</div>
+		</div>
+	</body>
+</html>
