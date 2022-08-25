@@ -43,20 +43,20 @@ a{text-decoration:none;font-size:14px;}
 
 .menu > li:hover .submenu1 {
   height: 100px; /*서브메뉴 li한개의 높이 50*5*/
-  transition-duration: 1s;	
+  transition-duration: 0.3s;	
 }
 
 .menu > li:hover .submenu2 {
   height: 150px; /*서브메뉴 li한개의 높이 50*5*/
-  transition-duration: 1s;	
+  transition-duration: 0.3s;	
 }
 .menu > li:hover .submenu3 {
   height: 100px; /*서브메뉴 li한개의 높이 50*5*/
-  transition-duration: 1s;	
+  transition-duration: 0.3s;	
 }
 .menu > li:hover .submenu4 {
-  height: 100px; /*서브메뉴 li한개의 높이 50*5*/
-  transition-duration: 1s;	
+  /*height: 100px; /*서브메뉴 li한개의 높이 50*5*/
+  transition-duration: 0.3s;	
 }
 
 @media screen and (max-width: 750px) {
